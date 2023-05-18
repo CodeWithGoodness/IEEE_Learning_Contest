@@ -6,13 +6,15 @@ def main():
 
 
 def dollars_to_float(d):
-    floatValue = (f"{d:2f}").replace("$", "")
-    return floatValue
+    
+    floatValue = float(d.replace("$", ""))
+    to_1_dp = f"{floatValue:.1f}"
+    return (float(to_1_dp))
 
 
 def percent_to_float(p):
-    percentValue = (f"{p:1f}").replace("%", "")
-    return percentValue
+    toFloat = float(p.replace("%", ""))/100
+    return (float(toFloat))
 
 
 main()
