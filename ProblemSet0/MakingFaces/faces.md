@@ -2,7 +2,7 @@
 
 This program has 2 major functions: main() and convert().
 #### convert()
-This function takes in a string parameter and uses the string.replace() function to convert any emoticon[:) and :(]
+This function takes in a string parameter and uses the string.replace() method to convert any emoticon[:) and :(]
 within the string to emoji [🙂 and 🙁]. The converted string is now stored in a new variable called 'new'. The return keyword returns the value of 'new'
 to the convert() function.
            
