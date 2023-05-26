@@ -1,4 +1,4 @@
-##FACES
+## FACES
 
 This program has 2 major functions: main() and convert().
 #### convert()
