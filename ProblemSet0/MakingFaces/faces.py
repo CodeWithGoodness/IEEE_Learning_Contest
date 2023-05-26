@@ -21,5 +21,6 @@ to the convert() function.
 
                                                                                                                                 
 main(): Prompts the user for input and stores it in the variable, "userInput". It then calls the convert function which checks for emoticons and 
-converts to emojis. The result of this is stired in a vatiable called, "convertedInput" which is then 
+converts to emojis. The result of this is stired in a vatiable called, "convertedInput" which is then printed.
+  Thus, execution begins from line 14 to line 1-2,  then to line 9-11 and back to line 4                                                                                                   
                                                                                                                            
