@@ -10,7 +10,7 @@ This function takes a string representing a dollar amount as input and converts 
 1. It removes the dollar sign using the replace() method.
 2. The resulting string is converted to a float using the float() function and stored in a variable called "floatValue".
 3. 'floatValue' is rounded to one decimal place using f-string formatting and stored in the variable to_1_dp.
-3. The function returns the 'floatValue' to_1_dp.
+3. The return function returns the float value of to_1_dp.
 
 #### percent_to_float(p)
 
