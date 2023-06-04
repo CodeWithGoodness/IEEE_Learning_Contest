@@ -7,14 +7,14 @@ def main():
 def to_snake_case(word):
     for i in range(len(word)):
         if word[i].isupper():
-            print("_",(word[i]).lower(), end="")
+            print("_",(word[i]).lower(),end="", sep="")
         else:
             print(word[i], end="")
-    i + 1
+    
     
 main()
 
-    #if split_words.isUpper
+
 
     
 
