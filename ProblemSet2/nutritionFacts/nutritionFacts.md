@@ -1,0 +1,5 @@
+#### NutritionFacts
+It prompts the user to enter the name of a fruit using the 'input()' function. The input is then converted to lowercase using the lower() method and any leading or trailing spaces are stripped using the strip() method. The resulting fruit name is assigned to the variable 'fruit_name'.
+The code defines a dictionary called fruit_dict which stores fruit names as keys and their corresponding calorie counts as values.
+The code checks if the entered 'fruit_name' exists in the 'fruit_dict' dictionary using the 'in' keyword. If the fruit name exists as a key in the dictionary, it prints the corresponding calorie count.
+Finally, the main() function is called to start the program execution. It prompts the user to enter a fruit name, checks if it exists in the 'fruit_dict' dictionary, and prints the corresponding calorie count if it does.

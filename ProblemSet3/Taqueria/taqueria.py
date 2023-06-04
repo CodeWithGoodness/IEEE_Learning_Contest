@@ -1,5 +1,4 @@
 total = 0
-flag = False
 while True:
     try: 
         user_input = input("Item: ").title()

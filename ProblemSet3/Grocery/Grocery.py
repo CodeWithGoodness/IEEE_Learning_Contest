@@ -2,7 +2,7 @@ grocery_list = {}
 try:
     while True:
         
-        grocery_item = input("Item: ]")
+        grocery_item = input("Item: ")
         if grocery_item not in grocery_list:
             grocery_list[grocery_item] = 1
             
@@ -13,8 +13,8 @@ try:
 
             
 except EOFError:
-    for num, list in sorted(grocery_list.items()):
-            print (f"{num} {list.upper()}")
+    for list_name, count in sorted(grocery_list.items()):
+            print (f"{count} {list_name.upper()}")
             
         
             
